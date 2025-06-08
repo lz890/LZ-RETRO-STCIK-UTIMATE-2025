@@ -86,16 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>游戏加载屏幕</theme.gamesplash-type>
     <image-full-size>全屏图像</image-full-size>
     <theme.nav-sounds>导航声音</theme.nav-sounds>
-    <singlelViewName>逐场比赛</singlelViewName>
-    <theme.box>盒子</theme.box>
-		<theme.logo>标识</theme.logo>
-    <theme.romFolder>显示ROM文件夹信息</theme.romFolder>
-    <dim>变暗</dim>
-    <theme-lastplayedLabel>最后游玩时间</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>游玩次数</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>游戏时间</theme-gameTimeLabel>
-    <theme.dummydata>在顶部显示版本和年份</theme.dummydata>
-    <dummydata.showversion>仅版本</dummydata.showversion>
-    <dummydata.showyear>仅年份</dummydata.showyear>
   </variables>
 </theme>

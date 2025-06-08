@@ -14,6 +14,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<color>${splash.labelColor}</color>
 			<fontSize>0.030</fontSize>
 			<fontSize ifSubset="aspect-ratio:4-3|5-4" tinyScreen="true">0.023</fontSize>
+
 			<alignment>center</alignment>
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
@@ -82,7 +83,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 		</text>
 
 		<text name="version" extra="true">
-			<text>Theme by pajarorrojo - Version 40</text>
+			<text>Theme Version 38</text>
 			<pos>0.02 0.951</pos>
 			<color>999999</color>
 			<fontPath>./_theme_inc/fonts/SST Roman.ttf</fontPath>
@@ -98,14 +99,34 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<maxSize>0.25 0.25</maxSize>
 			<maxSize ifSubset="aspect-ratio:4-3|5-4">0.1 0.1</maxSize>
 			<path ifSubset="frontend:batocera">./_theme_inc/images/batocera-logo-splash.svg</path>
-			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo-splash.png</path>
+			<path ifSubset="frontend:retrobat">./_theme_inc/images/retrobat-logo.png</path>
 			<path ifSubset="frontend:batocera-plus">./_theme_inc/images/batocera_plus_logo.png</path>
 			<path ifSubset="frontend:emuelec">./_theme_inc/images/emuelec-logo-splash.png</path>
-			<path ifSubset="frontend:projectarcade">./_theme_inc/images/projectarcade-logo.png</path>
-			<path ifSubset="frontend:jelos">./_theme_inc/images/jelos-logo-splash.png</path>
-			<path ifSubset="frontend:emulationstation">./_theme_inc/images/es-logo-splash.png</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
+
+
+<!-- not detecting the aspect ratio subset, always take the first option of the subset
+
+		<image name="info-ico-ratio" extra="true" >
+			<path ifSubset="aspect-ratio:4-3">./_theme_inc/images/4-3.svg</path>
+			<path ifSubset="aspect-ratio:16-9">./_theme_inc/images/16-9.svg</path>
+			<path ifSubset="aspect-ratio:16-10">./_theme_inc/images/16-10.svg</path>
+			<path ifSubset="aspect-ratio:3-2">./_theme_inc/images/3-2.svg</path>
+			<path ifSubset="aspect-ratio:5-3">./_theme_inc/images/5-3.svg</path>
+			<path ifSubset="aspect-ratio:5-4">./_theme_inc/images/5-4.svg</path>
+			<origin>0 0</origin>
+			<linearSmooth>true</linearSmooth>
+			<maxSize>0.08 0.08</maxSize>
+			<maxSize tinyScreen="true">0.12 0.12</maxSize>
+			<pos>0.9 0.83</pos>
+			<pos tinyScreen="true">0.87 0.78</pos>
+			<color>ffffff40</color>
+		</image>
+
+	-->
+
+
 
 
 		<text name="welcome" extra="true">
@@ -113,9 +134,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text ifSubset="frontend:retrobat">${theme.welcome} Retrobat</text>
 			<text ifSubset="frontend:batocera-plus">${theme.welcome} Batocera Plus</text>
 			<text ifSubset="frontend:emuelec">${theme.welcome} EmuElec</text>
-			<text ifSubset="frontend:projectarcade">${theme.welcome} ProjectArcade</text>
-			<text ifSubset="frontend:jelos">${theme.welcome} JELOS</text>
-			<text ifSubset="frontend:emulationstation">${theme.welcome} EmulationStation</text>
 			<text ifSubset="frontend:no-frontend">${theme.welcome} EmulationStation</text>
 			<color>ffffff</color>
 			<fontPath>./_theme_inc/fonts/SST Light.ttf</fontPath>
@@ -128,28 +146,35 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<glowOffset>3 2</glowOffset>
 			<zIndex>60</zIndex>
 			<backgroundColor>ff000000</backgroundColor>
+
 			<origin>0.5 0</origin>
 			<pos>0.5 0</pos>
 			<size>0.5 0.3</size>
 		</text>
+
+
+
+
+
+
+		<image name="avatar" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.341</pos>
+			<maxSize>0.222 0.222</maxSize>
+			<backgroundColor>ff000000</backgroundColor>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>10</zIndex>
+		</image>
 
 		<image name="avatarFrame" extra="true">
 			<origin>0.5 0</origin>
 			<path>./_theme_inc/images/frame-splash.png</path>
 			<pos>0.5 0.326</pos>
 			<maxSize>0.255 0.255</maxSize>
-
+			<verticalAlignment>middle</verticalAlignment>
+			<alignment>center</alignment>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>9</zIndex>
-		</image>
-
-		<image name="avatar" extra="true">
-			<origin>0.5 0</origin>
-			<pos>0.498 0.34</pos>
-			<maxSize>0.222 0.222</maxSize>
-			<backgroundColor>ff000000</backgroundColor>
-			<linearSmooth>true</linearSmooth>
-			<zIndex>10</zIndex>
 		</image>
 
 
@@ -169,33 +194,27 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<backgroundColor>ff000000</backgroundColor>
 		</text>
 
-		<image name="linea-inferior" extra="static">
+
+
+
+		<image name="linea-inferior" extra="true">
 			<path>./_theme_inc/images/pixel-blanco.png</path>
 			<pos>0 0.935</pos>
-			<size>1 0.002</size>
+			<size>1 0.0011</size>
 			<size tinyScreen="true">1 0.005</size>
 			<backgroundColor>ff000000</backgroundColor>
+			<verticalAlignment>top</verticalAlignment>
+			<alignment>left</alignment>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>99</zIndex>
+
 		</image>
 
-		<!-- CONFIGURACION EXTRA PARA AVATARES -->
+		<!-- listado de avatares-->
 		<image name="avatar" extra="true">
 			<path>./_theme_options/avatars/${image.avatar}</path>
 			<path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-			<path ifSubset="system-avatar:cheevos">./_theme_options/avatars/ps-x-logo-avatar.png</path>
 		</image>
-		<!--
-		<webimage name="avatar-test"  extra="true">
-			<path>https://media.retroachievements.org/UserPic/pajarorrojo.png</path>
-			<path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
-			<pos>0.618 0.035</pos>
-			<pos ifSubset="aspect-ratio:4-3|5-4">0.613 0.035</pos>
-			<maxSize>0.063 0.063</maxSize>
-			<zIndex>99</zIndex>
-			<linearSmooth>true</linearSmooth>
-		  </webimage>
-		-->
 	</view>
 	<include>./custom-username.xml</include>
 	<include>./_theme_options/usernames.xml</include>

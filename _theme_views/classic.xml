@@ -1,24 +1,26 @@
 <!-- Theme by pajarorrojo
-https://githugam.com/pajarorrojo/es-theme-PlayStation-X 
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
 <theme>
    <formatVersion>7</formatVersion>
 
     <customView name="classic" inherits="grid" displayName="${classiclViewName}">
 
-      <image name="background" extra="static">
+      <image name="console-grid-view, background" extra="static">
          <visible>false</visible>      
       </image>
 
-      <text name="gamename-grid">
+      
+      <text name="md_name, gamename-grid">
          <visible>false</visible>
       </text>
+
 
       <image name="overlay-front" extra="true">
          <path>./_theme_inc/images/overlay-full-grid.png</path>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
-         <minSize>1 1</minSize>
+         <minSize>1.001 1.001</minSize>
          <linearSmooth>true</linearSmooth>
          <tile>false</tile>
          <zIndex>50</zIndex>
@@ -36,7 +38,7 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <imageSource ifSubset="grid-origin:cartridge">cartridge</imageSource>
          <gameImage>./../_theme_inc/images/no-image-default.png</gameImage>
          <folderImage>./../_theme_inc/images/no-image-default.png</folderImage>
-         <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+         <autoLayoutSelectedZoom >1</autoLayoutSelectedZoom>
          <pos>-0.505 0.085</pos>
          <x ifSubset="aspect-ratio:4-3">-0.725 0.085</x>
          <x ifSubset="aspect-ratio:5-4">-0.81 0.085</x>
@@ -50,12 +52,13 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <size ifSubset="aspect-ratio:3-2">1.75 0.39</size>
          <size ifSubset="aspect-ratio:5-3">1.67 0.39</size>
          <zIndex>60</zIndex>
-         <padding>0.008 0.05</padding>
+         <padding >0.008 0.05</padding>
          <autoLayout>9 1</autoLayout>
          <scrollDirection>horizontal</scrollDirection>
          <centerSelection>true</centerSelection>
          <scrollLoop>true</scrollLoop>
          <animateSelection>false</animateSelection>
+
       </imagegrid>
 
       <gridtile name="default">
@@ -115,12 +118,13 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
       </image>
 
       <image name="gridtile.favorite">
-         <path>./../_theme_inc/images/favorite.png</path>
-         <pos>0.05 0.05</pos>
-         <maxSize>0.1 0.1</maxSize>
+         <path >./../_theme_inc/images/favorite.png</path>
+         <pos >0.05 0.05</pos>
+         <maxSize>0.08 0.08</maxSize>
          <horizontalAlignment>left</horizontalAlignment>
          <verticalAlignment>top</verticalAlignment>
          <origin>0 0</origin>
+         <color>F3C300</color>
       </image>
 
       <image name="gridtile.cheevos" if="{global.cheevos} == true">
@@ -185,15 +189,13 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <glowOffset>3 2</glowOffset>
          <zIndex>99</zIndex>
          <singleLineScroll>true</singleLineScroll>
-         <autoScrollDelay>0</autoScrollDelay>
-
       </text>
 
 
       <image name="marquee-classic-view" extra="true">
          <path>{game:marquee}</path>
          <tile>false</tile>
-         <pos>0.91 0.84</pos>
+         <pos>0.9 0.83</pos>
          <origin>0.5 0.5</origin>
          <verticalAlignment>center</verticalAlignment>
          <alignment>center</alignment>
@@ -202,106 +204,202 @@ https://githugam.com/pajarorrojo/es-theme-PlayStation-X
          <linearSmooth>true</linearSmooth>
       </image>
 
+      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="eu" />
+      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'">
+         <path>./../_theme_inc/images/logos/{game:system}.svg</path>
+      </image>
+      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="jp">
+         <path>./../_theme_inc/images/logos/jp/{game:system}.svg</path>
+      </image>
+      <image name="marquee-classic-view" if="${system.manufacturer} == 'Collections'" region="us">
+         <path>./../_theme_inc/images/logos/us/{game:system}.svg</path>
+      </image>
 
-      <image name="thumbnail-classic-view" extra="true">
+
+      <image name="console-classic-view" extra="true">
          <path>{game:thumbnail}</path>
          <tile>false</tile>
-         <pos>0.91 0.63</pos>
+         <pos>0.9 0.63</pos>
          <origin>0.5 0.5</origin>
          <verticalAlignment>center</verticalAlignment>
          <verticalAlignment  if="${system.manufacturer} == 'Collections'">bottom</verticalAlignment>
          <alignment>center</alignment>
-         <maxSize>0.125 0.28</maxSize>
+         <maxSize>0.125 0.24</maxSize>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
 
 
 
-      <image name="thumbnail-classic-view" if="${system.manufacturer} == 'Collections'" region="eu" />
-      <image name="thumbnail-classic-view" if="${system.manufacturer} == 'Collections'">
+      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="eu" />
+      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'">
          <path>./../_theme_inc/images/consoles/{game:system}.png</path>
       </image>
-      <image name="thumbnail-classic-view" if="${system.manufacturer} == 'Collections'" region="jp">
-         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="jp">
          <path>./../_theme_inc/images/consoles/jp/{game:system}.png</path>
       </image>
-      <image name="thumbnail-classic-view" if="${system.manufacturer} == 'Collections'" region="us">
-         <default>./../_theme_inc/images/consoles/{game:system}.png</default>
+      <image name="console-classic-view" if="${system.manufacturer} == 'Collections'" region="us">
          <path>./../_theme_inc/images/consoles/us/{game:system}.png</path>
       </image>      
       
 
       <text name="md_description">
          <color>ffffff</color>
-         <pos>0.30 0.536</pos>
-         <size>0.49 0.154</size>
+         <pos>0.30 0.54</pos>
+         <size>0.41 0.149</size>
          <size tinyScreen="true">0.41 0.139</size>
          <lineSpacing>1.1</lineSpacing>
          <backgroundColor>ff000000</backgroundColor>
-         
       </text>
 
-      <stackpanel name="contenedor-gamedata">
-         <pos>0.300 0.715</pos>
-      </stackpanel>
 
-      <stackpanel name="contenedor-gamedata2">
-         <pos>0.3 0.745</pos>
-      </stackpanel>
+      <datetime name="md_releasedate" ifSubset="info-bar:YES">
+         <pos>0.30 0.697</pos>
+         <size>0.038 0.034</size>
+         <size ifSubset="aspect-ratio:5-4">0.042 0.035</size>
+         <size ifSubset="aspect-ratio:4-3">0.048 0.035</size>
+         <fontSize>0.022</fontSize>
+         <zIndex>51</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </datetime>
 
-      <stackpanel name="contenedor-iconos">
-         <x>0.3</x>
-         <y>0.795</y>
-      </stackpanel>
+      <text name="md_developer" ifSubset="info-bar:YES">
+         <size>0.38 0.035</size>
+         <pos>0.335 0.697</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.345 0.698</pos>
+         <pos tinyScreen="true" ifSubset="aspect-ratio:4-3">0.355 0.696</pos>
+         <zIndex>52</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
 
-      <image name="pie-barra" extra="static" ifHelpPrompts="true">
+      <rating name="md_rating">
+         <pos>0.3 0.733</pos>
+      </rating>
+
+      <text name="md_genre" ifSubset="info-bar:YES" >
+         <pos>0.380 0.73</pos>
+         <pos ifSubset="aspect-ratio:4-3|5-4|3-2">0.405 0.729</pos>
+         <size>0.41 0.034</size>
+         <zIndex>51</zIndex>
+         <backgroundColor>00000000</backgroundColor>
+      </text>
+
+      <image name="md_flag, md_players,md_manual,md_nomanual, md_savestate,md_nosavestate">
+         <y>0.805</y>
+      </image>
+
+      <image name="md_flag" extra="true">
+			<x>0.312 </x>
+		</image>
+
+      <text name="md_players">
+         <x>0.342 </x>
+      </text>
+
+      <image name="md_savestate,md_nosavestate">
+         <x>0.372 </x>
+      </image>
+
+      <image name="md_manual,md_nomanual" >
+         <x>0.402 </x>
+      </image>
+
+      <text name="system-name" extra="true">
+         <pos>0.425 0.785</pos>
+      </text>
+
+      <image name="pie-barra" extra="static">
          <visible>true</visible>
       </image>
       
    </customView>
 
    <customView name="classic"  ifSubset="main-origin:none, game-video:background|oversize|inside|off|default">
-
-      <text name="system-name" extra="true">
-         <x>0.360</x>
+      
+      <text name="md_description">
+         <size>0.47 0.149</size>
+         <size tinyScreen="true">0.47 0.139</size>
       </text>
+
 
       <text name="md_description">
          <x>0.163</x>
       </text>
 
-      <stackpanel name="contenedor-gamedata">
-         <x>0.163</x>
-      </stackpanel>
 
-      <stackpanel name="contenedor-gamedata2">
+      <datetime name="md_releasedate">
          <x>0.163</x>
-      </stackpanel>
+      </datetime>
 
-      <stackpanel name="contenedor-iconos" >
+      <text name="md_developer">
+         <x>0.195</x>
+         <x ifSubset="aspect-ratio:4-3|5-4|3-2|5-3">0.210</x>
+         <x tinyScreen="true" ifSubset="aspect-ratio:4-3">0.220</x>
+      </text>
+
+      <rating name="md_rating">
          <x>0.163</x>
-      </stackpanel>
+      </rating>
+
+      <text name="md_genre">
+         <x>0.242</x>
+         <x ifSubset="aspect-ratio:4-3|5-4|3-2">0.270</x>
+      </text>
+
+      <image name="md_flag">
+         <x>0.175</x>
+      </image>
+
+      <text name="md_players">
+         <x>0.207</x>
+      </text>
+
+      <image name="md_savestate,md_nosavestate">
+         <x>0.239</x>
+      </image>
+      
+      <image name="md_manual,md_nomanual">
+         <x>0.271</x>
+      </image>
+
+      <text name="system-name" extra="true">
+         <x>0.295</x>
+      </text>
 
    </customView>
 
    <customView name="classic"  ifSubset="game-description:no">
 
+
+      <datetime name="md_releasedate">
+         <y>0.540</y>
+      </datetime>
+
+      <text name="md_developer">
+         <y>0.540</y>
+      </text>
+
+      <text name="md_genre">
+         <y>0.572</y>
+      </text>
+
+      <rating name="md_rating">
+         <y>0.575</y>
+      </rating>
+
+      <image name="md_flag, md_manual,md_nomanual, md_savestate,md_nosavestate">
+         <y>0.65</y>
+      </image>
+
+      <text name="md_players">
+         <y>0.65</y>
+      </text>
+
       <text name="system-name" extra="true">
          <y>0.632</y>
       </text>
 
-      <stackpanel name="contenedor-gamedata">
-         <y>0.540</y>
-      </stackpanel>
 
-      <stackpanel name="contenedor-gamedata2">
-         <y>0.57</y>
-      </stackpanel>
-
-      <stackpanel name="contenedor-iconos" >
-         <y>0.62</y>
-      </stackpanel>
 
    </customView>
 

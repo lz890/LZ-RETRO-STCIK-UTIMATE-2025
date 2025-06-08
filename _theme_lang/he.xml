@@ -86,16 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>מסך טעינת משחקים</theme.gamesplash-type>
     <image-full-size>תמונה במסך מלא</image-full-size>
     <theme.nav-sounds>צלילי ניווט</theme.nav-sounds>
-    <singlelViewName>משחק אחר משחק</singlelViewName>
-    <theme.box>קופסא</theme.box>
-		<theme.logo>סֵמֶל</theme.logo>
-    <theme.romFolder>הצג מידע על תיקיית ה-ROM</theme.romFolder>
-    <dim>מדולדל</dim>
-    <theme-lastplayedLabel>משחק אחרון</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>פעמים שיחק</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>זמן משחק</theme-gameTimeLabel>
-    <theme.dummydata>הצג גרסה ושנה בחלק העליון</theme.dummydata>
-    <dummydata.showversion>רק גרסה</dummydata.showversion>
-    <dummydata.showyear>רק שנה</dummydata.showyear>        
   </variables>
 </theme>

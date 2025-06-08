@@ -86,14 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Schermata di caricamento del gioco</theme.gamesplash-type>
     <image-full-size>Immagine a schermo intero</image-full-size>
     <theme.nav-sounds>Suoni di navigazione</theme.nav-sounds>
-    <singlelViewName>Gioco per gioco</singlelViewName>
-    <theme.romFolder>Mostra informazioni sulla cartella delle ROM</theme.romFolder>
-    <dim>Attenuato</dim>
-    <theme-lastplayedLabel>Ultima partita</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Numero partite:</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Tempo di gioco:</theme-gameTimeLabel>
-    <theme.dummydata>Mostra versione e anno in alto</theme.dummydata>
-    <dummydata.showversion>Solo versione</dummydata.showversion>
-    <dummydata.showyear>Solo anno</dummydata.showyear>        
   </variables>
 </theme>

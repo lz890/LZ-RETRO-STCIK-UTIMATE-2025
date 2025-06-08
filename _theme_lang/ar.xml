@@ -86,16 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>شاشة تحميل الألعاب</theme.gamesplash-type>
     <image-full-size>صورة بحجم الشاشة الكاملة</image-full-size>
     <theme.nav-sounds>أصوات الملاحة</theme.nav-sounds>
-    <singlelViewName>لعبة تلو الأخرى</singlelViewName>
-    <theme.box>صندوق</theme.box>
-		<theme.logo>شعار</theme.logo>
-    <theme.romFolder>عرض معلومات مجلد الروم</theme.romFolder>
-    <dim>مخفت</dim>
-    <theme-lastplayedLabel>آخر ما لعب</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>مرات اللعب</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>وقت اللعب</theme-gameTimeLabel>
-    <theme.dummydata>عرض الإصدار والسنة في الأعلى</theme.dummydata>
-    <dummydata.showversion>إصدار فقط</dummydata.showversion>
-    <dummydata.showyear>سنة فقط</dummydata.showyear>        
   </variables>
 </theme>

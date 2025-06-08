@@ -85,15 +85,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Écran de chargement du jeu</theme.gamesplash-type>
     <image-full-size>Image en plein écran</image-full-size>
     <theme.nav-sounds>Sons de navigation</theme.nav-sounds>
-    <singlelViewName>Jeu à jeu</singlelViewName>
-    <theme.box>Boite</theme.box>
-    <theme.romFolder>Afficher les infos du dossier des ROMs</theme.romFolder>
-    <dim>Atténué</dim>
-    <theme-lastplayedLabel>Dernier jeu</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Nombre de parties :</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Temps de jeu :</theme-gameTimeLabel>
-    <theme.dummydata>Afficher version et année en haut</theme.dummydata>
-    <dummydata.showversion>Version uniquement</dummydata.showversion>
-    <dummydata.showyear>Année uniquement</dummydata.showyear>
   </variables>
 </theme>

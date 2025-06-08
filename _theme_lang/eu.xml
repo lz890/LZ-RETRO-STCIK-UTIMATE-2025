@@ -86,15 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Jokoen kargatzeko pantaila</theme.gamesplash-type>
     <image-full-size>Irudi oso-pantaila</image-full-size>
     <theme.nav-sounds>Nabigazio soinuak</theme.nav-sounds>
-    <singlelViewName>Jokoaz jokoa</singlelViewName>
-    <theme.box>Kaxa</theme.box>
-    <theme.romFolder>Erakutsi ROMetako karpetaaren informazioa</theme.romFolder>
-    <dim>Estalia</dim>
-		<theme-lastplayedLabel>Azken jokatutakoa</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Zenbat aldiz jokatua:</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Joko Denbora:</theme-gameTimeLabel>
-    <theme.dummydata>Bertsioa eta urtea goiko aldean erakutsi</theme.dummydata>
-    <dummydata.showversion>Bertsioa bakarrik</dummydata.showversion>
-    <dummydata.showyear>Urtea bakarrik</dummydata.showyear>    
   </variables>
 </theme>

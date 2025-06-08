@@ -20,7 +20,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <green>Зеленый</green>
     <purple>Фиолетовый</purple>
     <orange>Оранжевый</orange>
-    <pink>Розовый</pink>cus
+    <pink>Розовый</pink>
     <default>Стандартный</default>
     <big>Большой</big>
     <medium>Средний</medium>
@@ -86,16 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Экран загрузки игры</theme.gamesplash-type>
     <image-full-size>Изображение на весь экран</image-full-size>
     <theme.nav-sounds>Звуки навигации</theme.nav-sounds>
-    <singlelViewName>Игра за игрой</singlelViewName>
-    <theme.box>коробка</theme.box>
-    <theme.logo>логотип</theme.logo>
-    <theme.romFolder>Показать информацию о папке с ROM</theme.romFolder>
-    <dim>Затемненный</dim>
-    <theme-lastplayedLabel>Последний запуск</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Сыграно раз:</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Время игры:</theme-gameTimeLabel>
-    <theme.dummydata>Показать версию и год в верхней части</theme.dummydata>
-    <dummydata.showversion>Только версия</dummydata.showversion>
-    <dummydata.showyear>Только год</dummydata.showyear>        
   </variables>
 </theme>

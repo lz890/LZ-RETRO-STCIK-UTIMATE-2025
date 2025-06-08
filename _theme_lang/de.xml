@@ -86,14 +86,5 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
     <theme.gamesplash-type>Ladescreen für Spiele</theme.gamesplash-type>
     <image-full-size>Bild im Vollbildmodus</image-full-size>
     <theme.nav-sounds>Navigationsgeräusche</theme.nav-sounds>
-    <singlelViewName>Spiel zu Spiel</singlelViewName>
-    <theme.romFolder>ROM-Ordnerinformationen anzeigen</theme.romFolder>
-    <dim>Abgeschwächt</dim>
-    <theme-lastplayedLabel>Zuletzt gespielt</theme-lastplayedLabel>
-		<theme-timesPlayedLabel>Anzahl der Spielaufrufe:</theme-timesPlayedLabel>
-		<theme-gameTimeLabel>Spielzeit:</theme-gameTimeLabel>
-    <theme.dummydata>Version und Jahr oben anzeigen</theme.dummydata>
-    <dummydata.showversion>Nur Version</dummydata.showversion>
-    <dummydata.showyear>Nur Jahr</dummydata.showyear>        
   </variables>
 </theme>
