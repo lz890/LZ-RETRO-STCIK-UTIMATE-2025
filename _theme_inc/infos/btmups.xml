@@ -1,3 +1,4 @@
+				
 <!-- Theme by pajarorrojo
 https://github.com/pajarorrojo/es-theme-PlayStation-X 
 -->
@@ -13,7 +14,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 			<text lang="eu">Dreamcast 1998an Sega-k bideratu zuen video-jokoen laugarren belaunaldiaren lehenengo konsola izan zen. Berak ezaugarriak izan zituen, hainbat jokoen irudigintza eta soinu prestazioak bermatuta, eta interneteko konexio-modem bat ere zituela. Baina, lehenengo emaitzak izan arren, Dreamcast-ek ezin izan zuen Sony-ren PlayStation 2 eta Microsoft-en Xbox-ekin lehiatu eta 2001ean etetea erabaki zuen. Hala ere, joko bideoen askotariko adoratzaileek baliagarria eta bere garaikuratzeko aurreratuena izan da.</text>        
 			<text lang="fr">La Dreamcast a été lancée en 1998 par Sega en tant que première console de jeu vidéo de sixième génération. Elle s'est distinguée par ses performances graphiques et sonores, ainsi que par l'inclusion d'un modem pour la connexion à internet. Malgré son succès initial, la Dreamcast n'a pas réussi à rivaliser avec la PlayStation 2 de Sony et la Xbox de Microsoft et a été abandonnée en 2001. Cependant, elle reste appréciée par de nombreux fans de jeux vidéo en tant que console innovante en avance sur son temps.</text>        
 			<text lang="pt">LZ G-Retro Info:
-CPS 1.2.3 é uma coleção baseada todas as placas Capcom Play System contendo toda sua coleção, sendo jogos de luta dos mais variados como STREET FIGTHER, JOJO BLIZARD entre outros, tem uma grande coletania com os principais jogos de luta feitos pela CAPCOM, muitos usados no principais torneios de jogos de luta, a CAPCOM é pioneira em criar grandes marcas e lindos jogos de luta.  </text>
+Como a grande maioria da pessoa sempre gostou de jogos de briga de rua, nosso sistema lz retro games criamos esta categoria para que possa jogar os melhores jogos deste genero com maior praticidade e facilidade, os jogos de neo geo briga de rua são classicos que muitas crianaças em nossa decada não vai ter o mesma magia dos anos 80, assim trazemos de volta os melhores jogos.  </text>
 			<text lang="it">La Dreamcast è stata lanciata nel 1998 da Sega come la prima console di sesta generazione. Si è distinta per le sue prestazioni grafiche e sonore, e per l'inclusione di un modem per la connessione a Internet. Nonostante il suo successo iniziale, la Dreamcast non è riuscita a competere con la PlayStation 2 di Sony e l'Xbox di Microsoft ed è stata interrotta nel 2001. Tuttavia, rimane apprezzata da molti fan dei videogiochi come una console innovativa e avanti per il suo tempo.</text>        
 			<text lang="de">Die Dreamcast wurde 1998 von Sega als erste Videospielkonsole der sechsten Generation auf den Markt gebracht. Sie zeichnete sich durch ihre grafischen und klanglichen Leistungen aus und enthielt ein Modem für Internetverbindungen. Trotz ihres anfänglichen Erfolgs konnte die Dreamcast nicht mit Sonys PlayStation 2 und Microsofts Xbox konkurrieren und wurde im Jahr 2001 eingestellt. Dennoch wird sie von vielen Videospiel-Fans als innovative und wegweisende Konsole geschätzt.</text>        
 			<text lang="pl">Dreamcast została wydana w 1998 roku przez Segę jako pierwsza konsola szóstej generacji. Wyróżniała się swoją grafiką i dźwiękiem oraz posiadała modem do połączeń internetowych. Mimo początkowego sukcesu, Dreamcast nie mogła konkurować z PlayStation 2 od Sony i Xbox od Microsoftu i została wycofana z produkcji w 2001 roku. Mimo to, wciąż jest ceniona przez wielu fanów gier wideo jako innowacyjna i przodująca w swoim czasie konsola.</text>        
@@ -21,9 +22,9 @@ CPS 1.2.3 é uma coleção baseada todas as placas Capcom Play System contendo t
 			<text lang="zh">Dreamcast于1998年由世嘉发布，是第六代视频游戏机的第一款。它以其出色的图像和声音性能以及包括用于连接互联网的调制解调器而著称。尽管它最初取得了成功，但Dreamcast无法与Sony的PlayStation 2和Microsoft的Xbox竞争，并于2001年停产。然而，它仍然被许多视频游戏迷视为创新和超前的游戏机。</text>        
 			<text lang="ja">ドリームキャストは、1998年にセガから発売された第6世代の最初のビデオゲームコンソールです。グラフィックと音響の性能に優れ、インターネット接続用のモデムも搭載していました。初期の成功にもかかわらず、ドリームキャストはソニーのプレイステーション2やマイクロソフトのXboxと競合できず、2001年に生産中止となりました。しかし、多くのビデオゲームファンからは、時代を先取りした画期的なコンソールとして高く評価されています。</text>        
 		</text>
-
+		
 		<text name="system_name" extra="true">
-			<text>Capcom Play System 2</text>
+			<text>Btmups Col.</text>
 		</text>
 	</view>
 </theme>

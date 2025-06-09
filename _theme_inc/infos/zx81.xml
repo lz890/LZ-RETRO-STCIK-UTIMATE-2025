@@ -1,20 +1,16 @@
-<!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
--->
+
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-
+		
 		<text name="system_description" extra="true">
-			<text>The ZX81 is a home computer that was produced by Sinclair Research and manufactured in Dundee, Scotland by Timex Corporation. It was launched in the United Kingdom in March 1981 as the successor to ZX80.</text>
-			<text lang="es,ca,eu">ZX81, lanzado por Sinclair Research en 1981, fue el computador de menor precio de la época y se vendía en la versión de kit por 49,95 libras esterlinas, y por 69,95 montado. Este era la versión mejorada del ZX80.</text>
-			<text lang="fr">La conception du ZX81 avait pour objectif de produire un ordinateur aux performances, certes modeste, mais à un coût raisonnable. Cela passait d'abord par une réduction du nombre des composants et par l'optimisation de leur utilisation.</text>
-			<text lang="pt">Sinclair ZX81, lançado pela Sinclair Research em 1981, veio em sequência ao ZX80. Foi o primeiro computador doméstico no mundo vendido abaixo de US$ 100 (sob a forma de "kit").</text>
-		</text>
+			
+			<text lang="pt">LZ Games Retro Stories : Shoot 'em up! Shoot 'em up (também conhecido como shmup ou STG[1][2]) é um subgênero de jogos eletrônicos de tiro. Em um shoot 'em up, o personagem do jogador se envolve em um ataque solitário, frequentemente, em uma nave espacial ou aeronaves, disparando em vários de inimigos e evitando seus ataques. Não há consenso sobre quais elementos compõem um shoot 'em up. Alguns restringem a jogos com naves espaciais e certos tipos de movimento do personagem; outros permitem uma definição mais amplacom personagens a pé e uma variedade de perspectivas. Esse subgênero suscita reações rápidas e faz o jogador memorizar o nível e o padrão de ataque dos inimigos. .</text>
+			
 		
 		<text name="system_name" extra="true">
-			<text>Sinclair ZX81</text>
+			<text>Shoot 'em up!</text>
 		</text>
 	</view>
 </theme>

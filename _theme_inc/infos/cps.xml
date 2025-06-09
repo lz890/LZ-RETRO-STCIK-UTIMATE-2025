@@ -21,9 +21,9 @@ CPS 1.2.3 é uma coleção baseada todas as placas Capcom Play System contendo t
 			<text lang="zh">Dreamcast于1998年由世嘉发布，是第六代视频游戏机的第一款。它以其出色的图像和声音性能以及包括用于连接互联网的调制解调器而著称。尽管它最初取得了成功，但Dreamcast无法与Sony的PlayStation 2和Microsoft的Xbox竞争，并于2001年停产。然而，它仍然被许多视频游戏迷视为创新和超前的游戏机。</text>        
 			<text lang="ja">ドリームキャストは、1998年にセガから発売された第6世代の最初のビデオゲームコンソールです。グラフィックと音響の性能に優れ、インターネット接続用のモデムも搭載していました。初期の成功にもかかわらず、ドリームキャストはソニーのプレイステーション2やマイクロソフトのXboxと競合できず、2001年に生産中止となりました。しかし、多くのビデオゲームファンからは、時代を先取りした画期的なコンソールとして高く評価されています。</text>        
 		</text>
-
+		
 		<text name="system_name" extra="true">
-			<text>Capcom Play System 2</text>
+			<text>Capcom P-System</text>
 		</text>
 	</view>
 </theme>
