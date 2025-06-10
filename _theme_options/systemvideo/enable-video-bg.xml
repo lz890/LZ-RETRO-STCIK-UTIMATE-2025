@@ -1,62 +1,40 @@
+<!-- Theme by pajarorrojo
+https://github.com/pajarorrojo/es-theme-PlayStation-X 
+-->
 <theme>
      <formatVersion>7</formatVersion>
      <view name="system">
-          <video name="system_video" extra="true">
-               <size>0.430 0.403</size>
-               <effect>none</effect>
-               <roundCorners>10</roundCorners>
-               <showSnapshotNoVideo>false</showSnapshotNoVideo>
-               <showSnapshotDelay>false</showSnapshotDelay>
-               <default>./../../_theme_inc/videos/no-video.mp4</default>
-               <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
-               <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
-               <zIndex>70</zIndex>
-               <audio ifSubset="video-system-audio:disable-audio">false</audio>
-          </video>
+      <text name="system_description" extra="true" ifSubset="carousel:small">
+          <pos>0.492 0.170</pos>
+            <size>0.64 0.27</size>
+          <fontSize>0.026</fontSize>
 
-
-          <text name="system_description" extra="true">
-               <backgroundColor>ff000000</backgroundColor>
-           </text>
-
-
-          <video name="system_video" extra="true" ifSubset="carousel:big" >
-               <pos>0.492 0.110</pos>
-          </video>
-
-
-          <text name="system_description" extra="true" ifSubset="carousel:big">
-               <size>0.430 0.220</size>
-               <fontSize>0.023</fontSize>
-               <pos>0.493 0.61</pos>
-          </text>
-
+      </text>
+# -------------------------------------------------------------------------------------
 
           <video name="system_video" extra="true" ifSubset="carousel:medium" >
-               <pos>0.02 0.512</pos>
+               <pos>0.092 0.625</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:medium">
-               <size>0.54 0</size>
-               <pos>0.26 0.512</pos>
-               <fontSize>0.026</fontSize>
-               
+               <size>0.45 0</size>
+               <pos>0.530 0.602</pos>
+               <fontSize>0.024</fontSize>
+
 
           </text>
+#--------------------------------------------------------------------------------------
 
+      <text name="system_description" extra="true" ifSubset="carousel:big">
+            <fontSize>0.025</fontSize>
+            <pos>0.163 0.6</pos>
+            <size>0.64 0.27</size>
+            <backgroundColor>ff000000</backgroundColor>
+      </text>
 
-          <video name="system_video" extra="true" ifSubset="carousel:small" >
-               <pos>0.02 0.46</pos>
-          </video>
+            
 
-
-          <text name="system_description" extra="true" ifSubset="carousel:small">               
-               <size>0.54 0</size>
-               <fontSize>0.026</fontSize>
-               <pos>0.26 0.46</pos>
-          </text>
-
-
+     
      </view>
 </theme>

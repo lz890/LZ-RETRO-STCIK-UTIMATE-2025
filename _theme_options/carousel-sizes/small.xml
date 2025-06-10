@@ -6,33 +6,32 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
    <view name="system">
       <!-- CARRUSEL MEDIANO -->
       <carousel name="systemcarousel">
-         <pos>-0.675 0.112</pos>
+         <pos>-0.575 0.118</pos>
          <size>1.750 1</size>
-         <logoScale>1.377</logoScale>
+         <logoScale>1.877</logoScale>
          <logoSize>0.345</logoSize>
-         <maxLogoCount>6</maxLogoCount>
+         <maxLogoCount>5</maxLogoCount>
       </carousel>
 
       <image name="marco-activo" extra="static">
-         <pos>0.0610 0.135</pos>  
-          <size>0.350 </size>  
-         <maxSize>0.700</maxSize>       
+         <pos>0.1150 0.215</pos>  
+        <size>0.465 0.790</size>      
          <origin>0 0.1</origin>
       </image>
       
 
       <text name="start" extra="true">
-         <pos>0.091 0.840</pos>       
-         <size>0.28 0.09</size>
+         <pos>0.000 0.799</pos>       
+         <size>0.58 0.09</size>
        
-         <fontSize>0.03</fontSize>
+         <fontSize>0.04</fontSize>
       </text>
 
       <text name="system_name" extra="true">
          <!-- AVERIGUAR EL NOMBRE DE LA CARPETA DEL SISTEMA
          <text>${system.name}</text> -->
          <text>${system.fullName}</text>
-         <pos>0.390 0.551</pos>
+         <pos>0.530 0.550</pos>
     
       </text>
 
